@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="CryOut.com">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Shreya,Sarthak Agarwal">
+    <!-- The above meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>CryOut</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="css/stylesheet.css" rel="stylesheet">
+     
+  </head>
+
+  <body class="tohelp1">
+    
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="img/logofull2.png"></a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="inactive"><a href="index.html">Home</a></li>
+                    <li class="active"><a href="complaint.php">File a Complaint</a></li>
+                    <li class="inactive"><a href="login.php">Help</a></li>
+                    <li class="inactive"><a href="forum.html">Forum</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+    
+    <div class="type" class="complaintType">
+		  <h2 class="filecomp">FILE A COMPLAINT</h2>
+		 <form action="cmplaint.php" method="POST" class="formalign">
+			<fieldset>
+				<h2 class="comptype">Type of complaint</h2> 
+				<hr class="linewid">
+				<div>
+				<div>
+					<input id="Field5_0" name="type" type="radio" value="murder" tabindex="1">
+					<label class="choice" for="Field5_0">Murder/Homicide</label>
+				</div>
+				<div>
+					<input id="Field5_1" name="type" type="radio" value="domestic" tabindex="2">
+					<label class="choice" for="Field5_1">Domestic Violence</label>
+				</div>
+				<div>
+					<input id="Field5_2" name="type" type="radio" value="sexual" tabindex="3">
+					<label class="choice" for="Field5_2">Sexual Harassment</label>
+				</div>
+				<div>
+					<input id="Field5_3" name="type" type="radio" value="assault" tabindex="4">
+					<label class="choice" for="Field5_3">Assault/Violence</label>
+				</div>
+				<div>
+					<input id="Field5_4" name="type" type="radio" value="theft" tabindex="5">
+					<label class="choice" for="Field5_4">Theft/Robbery</label>
+				</div>
+				</div>
+			</fieldset>
+			<div>
+				<label class="desc" id="title4" for="Field4">Any other? Please Specify!</label>
+				<div>
+					<textarea id="Field4" name="other" spellcheck="true" rows="2" cols="30" tabindex="6"></textarea>
+				</div>
+			</div>
+<!--			<br><br><br><br>-->
+			<div>
+			<fieldset>
+				<h2 id="title6" class="comptype">Assistance Required</h2>
+				<hr class="linewid">
+				<div>
+					<input id="Field6" name="medical" type="checkbox" value="First Choice" tabindex="8">
+					<label class="choice" for="Field6">Medical</label>
+				</div>
+				<div>
+					<input id="Field7" name="police" type="checkbox" value="Second Choice" tabindex="9">
+					<label class="choice" for="Field7">Police</label>
+				</div>
+				<div>
+					<input id="Field8" name="counselling" type="checkbox" value="Third Choice" tabindex="10">
+					<label class="choice" for="Field8">Counselling</label>
+				</div>
+			</fieldset>
+			</div>
+			<div>
+				<h2 id="title6" class="comptype">Event Details</h2>
+				<hr class="linewid">
+				<div>
+					<textarea id="Field4" name="details" spellcheck="true" rows="5" cols="50" tabindex="7" placeholder="Enter Details.."></textarea>
+				</div>	
+			</div>
+			<div>
+				<label class="essdetails" id="title1" for="Field1">Full Name</label>
+				<hr class="linewid">
+				<div>
+					<input id="Field1" name="name" type="text" class="field text fn" value="" size="30" tabindex="9">
+				</div>
+			</div>
+		
+			<div>
+				<label class="essdetails" id="title3" for="Field3">Email</label>
+				<hr class="linewid">
+				<div>
+					<input id="Field3" name="email" type="email" spellcheck="false" value="" size="30" maxlength="255" tabindex="10"> 
+				</div>
+			</div>
+			<div class="submitComplaint">
+            <input type="submit" class="btn btn-danger subbtn" name='submit'  value='CryOut!'>
+		    </div>
+		</form> 
+        </div>
+		
+    
+    <footer>
+      <div class="container-fluid">
+       <div class="row">
+           <div class="col-sm-4 col-sm-offset-4 foot">
+               <p>&copy; 2016 CryOut</p>
+           </div>
+       </div>
+        </div>
+    </footer>
+
+    <script src="js/plugins/jquery.min.js"></script>
+    <script src="js/plugins/jquery.backstretch.js"></script>
+    <script src="js/plugins/bootstrap.min.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="CryOut.com">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Shreya, Sarthak Agarwal">
+    <!-- The above meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>CryOut</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="css/stylesheet.css" rel="stylesheet">
+     
+  </head>
+
+  <body>
+    
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="img/logofull2.png"></a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li class="inactive"><a href="complaint.php">File a Complaint</a></li>
+                    <li class="inactive"><a href="login.php">Help</a></li>
+                    <li class="inactive"><a href="forum.html">Forum</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+    <div class="cover">
+        <div class="cover-text">
+           <p class="subhead">Uphold the Law.</p>
+<!--            <h1 class="masthead logo"><span class="logo"><img src="logo1.png">-->
+<!--</span>ryOut</h1>-->
+           <img src="img/logofull1.png" class="logo">
+            <img src="img/arrow1.png" class="scroll">
+            <p class="scrolld1">Scroll down</p>
+        </div>
+    </div>
+    
+    <section id="about">
+     <h2 class="headabout wow fadeInUp" data-wow-duration="2s">WHAT DO WE DO?</h2>
+      <div class="container">
+       <div class="row">
+          <div class="col-sm-4 abouthead wow fadeInUp" data-wow-duration="2s">
+          
+            <a href="complaint.php">
+             <img src="img/i31.png">
+              <h3>File a Complaint</h3>
+              <p class="lodge">Lodge a complaint if you wish to report a criminal activity you witnessed or went through. CryOut for help. The concerned authorities will take necessary action.</p>
+              </a>
+           </div>
+           <div class="col-sm-4 abouthead wow fadeInUp" data-wow-duration="2s">
+               <a href="forum.html">
+               <img src="img/discuss1.png" class="help">
+               <h3>Discussion Forum</h3>
+              <p class="lodge">Wish to discuss your problems with someone? Wish to ask for advice? We provide the perfect platform for this. Don't worry, your anonymity will be kept.</p>
+               </a>
+           </div>
+           <div class="col-sm-4 abouthead wow fadeInUp" data-wow-duration="2s">
+               <a href="login.php">
+               <img src="img/i21.png" class="help1">
+               <h3>Want to Help?</h3>
+              <p class="lodge">We provide a portal for the police and all the NGOs to be connected to the people and help them in any way possible.</p>
+               </a>
+           </div>
+       </div>
+        </div>
+    </section>
+   
+   <section class="scrshot wow fadeInUp" data-wow-duration="3s">
+       <h2 class="mobapp wow fadeInUp" data-wow-duration="3s">We also have a Mobile Application!</h2>
+       <div class="container">
+          <div class="row">
+              <div class="col-sm-4 col-sm-offset-1">
+                    <img src="img/event.png" class="scr">     
+              </div>
+              <div class="col-sm-6 wow fadeInUp" data-wow-duration="3s">
+                  <h3 class="mobapp1">FEATURES</h3>
+                  <p class="feat"><span class="bul"><img src="img/la1.png"></span>File a Complaint</p>
+                  <p class="feat"><span class="bul"><img src="img/la1.png"></span>Login Portal for Police &amp; NGOs</p>
+                  <p class="feat"><span class="bul"><img src="img/la1.png"></span>Discussion Forum</p>
+                  <p class="feat"><span class="bul"><img src="img/la1.png"></span>SOS Feature : An Instant Way to CryOut for Help!</p>
+              </div>
+          </div>
+           
+       </div>
+   </section>
+    
+    <footer>
+      <div class="container-fluid">
+       <div class="row">
+           <div class="col-sm-4 col-sm-offset-4 foot">
+               <p>&copy; 2016 CryOut</p>
+           </div>
+       </div>
+        </div>
+    </footer>
+
+    <script src="js/plugins/jquery.min.js"></script>
+    <script src="js/plugins/jquery.backstretch.js"></script>
+    <script src="js/plugins/wow.min.js"></script>
+    <script src="js/plugins/bootstrap.min.js"></script>
+    <script>
+        $(".cover").backstretch("img/22.png"); 
+        new WOW().init();
+    </script>
+    
+  </body>
+</html>

@@ -1,0 +1,458 @@
+html,
+body,
+.cover{
+    height:100%;  
+}
+
+nav.navbar-inverse{
+    background: rgba(255,255,255,1);
+/*    a is alpha channel. its for opacity*/
+    border: none;
+}
+
+.btn {
+  border-radius:0;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #278577;
+}
+
+.navbar-inverse .navbar-header>.navbar-brand:focus,.navbar-inverse .navbar-header>.navbar-brand:hover {
+    color: #278577;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color : #000;
+}
+
+a:hover{
+    background-color: transparent;
+    text-decoration: none;
+    color : #000;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+    color: white;
+    background-color: #278577;
+}
+
+.navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: #278577;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: grey;
+}
+
+.navbar-inverse .navbar-nav>.inactive>a:focus, .navbar-inverse .navbar-nav>.inactive>a:hover {
+    color: black;
+    background-color: transparent;
+}
+
+.cover{
+/*    background-image: url('1.png');*/
+/*    background-size: cover;*/
+    display: table;
+    width: 100%;
+    padding: 0 20%;
+    margin-top: 50px;
+}
+
+.cover-text{
+/*    display: table-cell;*/
+    margin-top: 20%;
+}
+
+.logo{
+/*    margin-right: 100px;*/
+    margin-left: 30px;
+    margin-top: -130px;
+}
+
+.logo1{
+    margin-top: -10px;
+    margin-right: -3px;
+}
+
+.cover-text h1{
+/*    margin:0;*/
+    font-size: 55px;
+    margin-top: -5px;
+    margin-left: 50px;
+    color: #34b3a0;
+}
+
+.subhead{
+    font-size: 25px;
+    color: white;
+    font-family: raleway;
+    margin-top: 200px;
+    
+    margin-left: 42px;
+}
+
+.scroll{
+    margin-top: 160px;
+    margin-left: -14%;
+}
+
+.scrolld1{
+    font-size: 13px;
+    color: white;
+    font-family: raleway;
+    margin-left: 13%;
+    margin-top: 5px;
+}
+
+.help{
+    margin-top: -12px;
+    margin-bottom: -30px;
+}
+
+.help1{
+    margin-top: -20px;
+    margin-bottom: -33px;
+}
+
+#about{
+    background-color: white;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.headabout{
+    text-align: center;
+    color:#34b3a0;
+    font-size: 30px;
+    font-family: raleway;
+    margin-bottom: 50px;
+}
+
+.abouthead{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#laws{
+    background-color: #34b3a0;
+    
+/*    background: url('1.png');*/
+    margin-top: 60px;
+    margin-bottom: 2px;
+    padding-bottom: 100px;
+}
+
+#laws h1{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 100px;
+}
+
+.box{
+    margin-top: 50px;
+    background-color: white;
+/*    text-align: center;*/
+    height: 150px;
+    margin-left: 75px;
+    box-shadow: 8px 8px 5px grey;
+}
+
+#laws h3{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#laws p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.headabout1{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    font-family: raleway;
+    margin-bottom: 30px;
+}
+
+.assault{
+    margin-left: 12%;
+}
+
+footer{
+    background-color: white;
+    padding-top: 20px;
+/*    position: fixed;*/
+    width: 100%;
+    bottom:0;
+}
+
+footer1{
+    background-color: white;
+    padding-top: 20px;
+    position: fixed;
+    width: 100%;
+    bottom:0;
+}
+
+.footer11{
+    background-color: white;
+    padding-top: 20px;
+    position: fixed;
+    width: 100%;
+    bottom:0;
+}
+
+.foot{
+    text-align: center;
+    font-size: 13px;
+    color: gray;
+    margin-top: -5px;
+}
+
+.logodown{
+    text-align: center;
+}
+
+.tohelp1{
+    background-color: #34b3a0;
+    background-size: cover;
+    margin-top: -100px;
+}
+
+.text1{
+    color:white;
+}
+
+#whathelp{
+    margin-top: 150px;
+}
+
+.img1{
+    margin-top: 140px;
+}
+
+.helpus{
+    text-align: center;
+}
+
+.login{
+    background-color: white;
+    margin-top: 40px;
+    height: 500px;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.inputlogin1{
+    margin-top: 20px;
+    border-radius: 0;
+}
+
+.inputlogin2{
+    margin-top: 5px;
+    border-radius: 0;
+}
+
+.logimg{
+    margin-left: 12%;
+    margin-top: 30px;
+}
+
+.logtext{
+    font-family: raleway;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 85px;
+/*    border:1px solid;*/
+    width: 100px;
+    color:white;
+    font-size: 20px;
+    background-color: #34b3a0;
+    padding: 10px;
+}
+
+.loginbtn{
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 32%;
+    width: 100px;
+}
+
+.reg{
+    text-align: center;
+    margin-top: 35px;
+    font-family: raleway;
+}
+
+.reghere{
+    text-align: center;
+    margin-top: 10px;
+    font-family: raleway;
+}
+
+.herelink,.herelink:hover{
+    color:#34b3a0;
+}
+
+.polngo{
+    margin-left: 170px;
+    margin-top: 10px;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.police{
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+
+.ngo{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.enterbtn{
+    margin-left: 260px;
+}
+
+.lodge{
+    font-family: raleway;
+    font-size:17px;
+    margin-top: 20px;
+}
+
+.comptype{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.desc{
+    margin-top: 15px;
+}
+
+.choice{
+	margin-left:5px;
+	color:white;
+}
+
+.linewid{
+	width:50%;
+	margin-left:-20px;
+}
+
+.filecomp{
+    text-align: center;
+    margin-top: 200px;
+    font-family: Raleway;
+    color: white;
+    
+}
+
+.formalign{
+    margin-left: 300px;
+	font-family:Raleway;
+}
+
+.essdetails{
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: 50px;
+	margin-bottom:-20px;
+}
+
+#Field1{
+	width:350px;
+	height:35px;
+}
+
+#Field3{
+	width:350px;
+	height:35px;
+}
+
+.text3{
+    color:white;
+    font-family: raleway;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.scrshot{
+    background-color: #34b3a0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.mobapp{
+    text-align: center;
+    color: white;
+    font-family: raleway;
+}
+
+.mobapp1{
+    color: white;
+    margin-top: 80px;
+    font-family: raleway;
+    font-size: 30px;
+    margin-left: 160px;
+    padding-bottom: 20px;
+
+}
+
+.scr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.feat{
+    color:white;
+    font-family: raleway;
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+.bul{
+    padding-right: 20px;
+}
+
+.submitComplaint{
+    padding-bottom: 70px;
+    margin-top: 60px;
+}
+
+.subbtn{
+    border-radius: 5px;
+}
+
+.disfor{
+    color:white;
+    font-family: raleway;
+    margin-top: 200px;
+    text-align: center
+}
+
+.scr1{
+    margin-top: -20px;
+/*    margin-bottom: 50px;*/
+}
+
+.fortext{
+    color:white;
+    font-family: raleway;
+    font-size: 22px;
+    margin-top: 90px;
+    margin-left: -66px;
+}
